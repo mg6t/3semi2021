@@ -51,6 +51,6 @@ function draw() {
   this.display = function() {
     // Draw Walker as circle
     fill(red, green, blue, random(30, 250));
-  ellipse(this.pos.x, this.pos.y, r);
+  ellipse(this.pos.x, this.pos.y, r, r);
   }
 }
